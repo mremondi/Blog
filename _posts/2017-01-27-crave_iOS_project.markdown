@@ -16,17 +16,27 @@ Finally, an app that lets you search for meals... not just restaurants.
 
 ---
 
-What has inside?
+Features:
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- NearMe
+  - Quickly see restaurants nearby
+- Search
+  - Item, restaurant, cuisine, and dietary restriction searching
+- Favorites
+  - Quickly access their previous meal ratings
+- Discover
+  - Want to try something new? Our machine learning algorithms suggests new meals based on your previous ratings
+- Compromise
+  - Can't decide where you and your friends want to eat? Enter their usernames and our machine learning algorithms will suggest a new place that you all will enjoy
+
+Technologies Used:
+- [Google Maps API](https://developers.google.com/maps/documentation/ios-sdk/)
+  - Both for GeoCoding and for the actual map
+- [AlamoFire](https://github.com/Alamofire/Alamofire)
+  - For connecting with my API
+- [Cosmos Star Rating](https://github.com/marketplacer/Cosmos)
+  - For easily allowing users to rate using the familiar star rating system
 
 ---
 
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+[Check it out](https://appsto.re/us/mVgahb.i) here.

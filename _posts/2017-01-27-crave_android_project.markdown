@@ -16,17 +16,27 @@ Finally, an app that lets you search for meals... not just restaurants.
 
 ---
 
-What has inside?
+Features:
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- NearMe
+  - Quickly see restaurants nearby
+- Search
+  - Item, restaurant, cuisine, and dietary restriction searching
+- Favorites
+  - Quickly access their previous meal ratings
+- Discover
+  - Want to try something new? Our machine learning algorithms suggests new meals based on your previous ratings
+- Compromise
+  - Can't decide where you and your friends want to eat? Enter their usernames and our machine learning algorithms will suggest a new place that you all will enjoy
+
+Technologies Used:
+- [Google Maps API](https://developers.google.com/maps/documentation/android-api/)
+  - Both for GeoCoding and for the actual map
+- [Retrofit](https://square.github.io/retrofit/)
+  - For communicating with my API
+- [Glide](https://github.com/bumptech/glide)
+  - For easily using images from web links
 
 ---
 
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+[Check it out](https://play.google.com/store/apps/details?id=com.cravings) here.

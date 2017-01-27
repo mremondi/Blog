@@ -1,6 +1,6 @@
 # main text of home
 name: Mike Remondi
-bio: Something about coding...
+bio: 
 
 # twitter summary info
 description: A blog about my personal projects
@@ -40,7 +40,7 @@ facebook: mike.remondi
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: michael-remondi-8702aa114
 # youtube: myyoutube
 spotify: mremondi
 github: mremondi
