@@ -1,7 +1,7 @@
 ---
-title: "Crave iOS"
+title: "Crave Android"
 layout: post
-date: 2017-01-27 16:28
+date: 2017-01-27 16:41
 tag: crave
 image: ../assets/images/crave_logo.png
 headerImage: true
