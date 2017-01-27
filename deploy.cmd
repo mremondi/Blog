@@ -1,6 +1,12 @@
 @if "%SCM_TRACE_LEVEL%" NEQ "4" @echo off
 
+:: ----------------------
+:: KUDU Deployment Script
+:: Version: 1.0.6
+:: ----------------------
+
 :: Prerequisites
+:: -------------
 
 :: Verify node.js installed
 where node 2>nul >nul
@@ -10,6 +16,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 :: Setup
+:: -----
 
 setlocal enabledelayedexpansion
 
@@ -46,7 +53,9 @@ call :ExecuteCmd "getruby.cmd"
 
 ECHO WE MADE IT
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: Deployment
+:: ----------
 
 echo Handling Basic Web Site deployment.
 
@@ -56,6 +65,7 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :: Post deployment stub
 IF DEFINED POST_DEPLOYMENT_ACTION call "%POST_DEPLOYMENT_ACTION%"
