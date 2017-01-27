@@ -1,21 +1,18 @@
 ---
 title: "Crave iOS"
 layout: post
-date: 2017-01-27 26:15
+date: 2017-01-27 16:28
 tag: jekyll
-image: /assets/images/crave_logo.png
+image: assets/images/crave_logo.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "Finally an app that lets you search for meals"
-jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 author: mremondi
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
-
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+Finally, an app that lets you search for meals... not just restaurants.
 
 ---
 
