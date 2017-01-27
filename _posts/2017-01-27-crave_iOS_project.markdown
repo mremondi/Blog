@@ -3,7 +3,7 @@ title: "Crave iOS"
 layout: post
 date: 2017-01-27 16:28
 tag: crave
-image: ../assets/images/crave_logo.png
+image: ../assets/images/CraveFeatureImageLogo.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
