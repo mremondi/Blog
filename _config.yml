@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/images/resume.jpg
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -35,21 +35,21 @@ highlighter: rouge
 disqus: mydisqus
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: mike.remondi
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
-# spotify: myspotify
-github: mygithub
+spotify: mremondi
+github: mremondi
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: mikeremondi@gmail.com
 
 authors:
     mremondi:
@@ -57,7 +57,6 @@ authors:
         bio: Something about coding...
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
