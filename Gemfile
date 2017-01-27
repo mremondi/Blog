@@ -11,3 +11,6 @@ gem 'jekyll-feed'
 gem 'jekyll-sitemap'
 gem 'jekyll-gist'
 gem 'jekyll-paginate'
+
+[config]
+	command = deploy.cmd
