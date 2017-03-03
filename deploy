@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo bundle exec jekyll build --destination /public_html
+sudo service apache2 restart
+sudo systemctl restart apache2
